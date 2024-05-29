@@ -30,7 +30,7 @@ Diagnosis of melanoma in the early stages of the disease can significantly preve
 
 
 ## Results
-The test data have been evaluated with sensitivity, specificity and accuracy parameters. The results of the tests on MIAS and DDSM database have 84.47% and 82.50% recognition accuracy, respectively.
+The test data have been evaluated with sensitivity, specificity and accuracy parameters. This method has an accuracy of about 89%. 
 
 ## How to Use
 
