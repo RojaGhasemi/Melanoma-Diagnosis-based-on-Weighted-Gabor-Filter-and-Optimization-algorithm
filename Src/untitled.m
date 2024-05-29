@@ -374,7 +374,7 @@ end
 FVTR1(1:70,:)= mapminmax(FVTR1(1:70,:),0,1);
 
  FVTR1(1:70,4001)=fv23;
- save('gabor_LBP_Train.mat','gabor_LBP_Train');
+ save('gabor_Train.mat','gabor_Train');
 save('pBest_Train.mat','pBest_Train');
   save('PSO_Train.mat','PSO_Train');
 save('FVTR1.mat','FVTR1');
@@ -656,7 +656,7 @@ PSO_Test(1,:)=FVTT;
 % FVTT1(1,1:end)=norm(FVTT1(1,:));
  FVTT1(1,4001)=1;
  
-save('gabor_LBP_Test.mat','gabor_LBP_Test');
+save('gabor_Test.mat','gabor_Test');
 save('pBest_Test.mat','pBest_Test');
 save('PSO_Test.mat','PSO_Test');
  save('FVTT1.mat','FVTT1');
